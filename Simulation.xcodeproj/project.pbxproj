@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F5DDFB62128F3A30071CBC7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DDFB52128F3A30071CBC7 /* main.cpp */; };
+		9F052B1B212BAD7E00E53DE6 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F052B19212BAD7E00E53DE6 /* shader.cpp */; };
+		9F052B1C212BAE2F00E53DE6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DDFB52128F3A30071CBC7 /* main.cpp */; };
+		9F052B1F212BBB4200E53DE6 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F052B1D212BBB4200E53DE6 /* sphere.cpp */; };
+		9F052B22212C5C7E00E53DE6 /* TimeStepper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F052B20212C5C7E00E53DE6 /* TimeStepper.cpp */; };
+		9F052B25212C606600E53DE6 /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F052B23212C606600E53DE6 /* plane.cpp */; };
+		9F052B28212C632900E53DE6 /* theme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F052B26212C632900E53DE6 /* theme.cpp */; };
+		9F5DDFC02128F3B30071CBC7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DDFBD2128F3B30071CBC7 /* GLKit.framework */; };
+		9F5DDFC12128F3B30071CBC7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DDFBE2128F3B30071CBC7 /* OpenGL.framework */; };
+		9F5DDFC22128F3B30071CBC7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DDFBF2128F3B30071CBC7 /* GLUT.framework */; };
+		9F5DDFC52128F5590071CBC7 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DDFC32128F5590071CBC7 /* libglfw.3.2.dylib */; };
+		9F5DDFC62128F5590071CBC7 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DDFC42128F5590071CBC7 /* libGLEW.2.1.0.dylib */; };
+		9F5DDFC9212B0EC30071CBC7 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DDFC7212B0EC30071CBC7 /* ShaderProgram.cpp */; };
+		9F5DDFCD212B10F20071CBC7 /* ColorShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DDFCB212B0F6D0071CBC7 /* ColorShader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +35,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F052B19212BAD7E00E53DE6 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
+		9F052B1A212BAD7E00E53DE6 /* shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = shader.hpp; sourceTree = "<group>"; };
+		9F052B1D212BBB4200E53DE6 /* sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sphere.cpp; sourceTree = "<group>"; };
+		9F052B1E212BBB4200E53DE6 /* sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sphere.hpp; sourceTree = "<group>"; };
+		9F052B20212C5C7E00E53DE6 /* TimeStepper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeStepper.cpp; sourceTree = "<group>"; };
+		9F052B21212C5C7E00E53DE6 /* TimeStepper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TimeStepper.hpp; sourceTree = "<group>"; };
+		9F052B23212C606600E53DE6 /* plane.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plane.cpp; sourceTree = "<group>"; };
+		9F052B24212C606600E53DE6 /* plane.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = plane.hpp; sourceTree = "<group>"; };
+		9F052B26212C632900E53DE6 /* theme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = theme.cpp; sourceTree = "<group>"; };
+		9F052B27212C632900E53DE6 /* theme.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = theme.hpp; sourceTree = "<group>"; };
 		9F5DDFB22128F3A30071CBC7 /* Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5DDFB52128F3A30071CBC7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9F5DDFBD2128F3B30071CBC7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9F5DDFBE2128F3B30071CBC7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		9F5DDFBF2128F3B30071CBC7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		9F5DDFC32128F5590071CBC7 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		9F5DDFC42128F5590071CBC7 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		9F5DDFC7212B0EC30071CBC7 /* ShaderProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
+		9F5DDFC8212B0EC30071CBC7 /* ShaderProgram.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShaderProgram.hpp; sourceTree = "<group>"; };
+		9F5DDFCA212B0F6D0071CBC7 /* ColorShader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ColorShader.hpp; sourceTree = "<group>"; };
+		9F5DDFCB212B0F6D0071CBC7 /* ColorShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColorShader.cpp; sourceTree = "<group>"; };
+		9F5DDFCF212B11CC0071CBC7 /* color_render.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = color_render.vert; sourceTree = "<group>"; };
+		9F5DDFD0212B11DB0071CBC7 /* color_render.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = color_render.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +65,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5DDFC52128F5590071CBC7 /* libglfw.3.2.dylib in Frameworks */,
+				9F5DDFC62128F5590071CBC7 /* libGLEW.2.1.0.dylib in Frameworks */,
+				9F5DDFC02128F3B30071CBC7 /* GLKit.framework in Frameworks */,
+				9F5DDFC12128F3B30071CBC7 /* OpenGL.framework in Frameworks */,
+				9F5DDFC22128F3B30071CBC7 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F052B18212BAD4E00E53DE6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				9F052B19212BAD7E00E53DE6 /* shader.cpp */,
+				9F052B1A212BAD7E00E53DE6 /* shader.hpp */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		9F5DDFA92128F3A30071CBC7 = {
 			isa = PBXGroup;
 			children = (
 				9F5DDFB42128F3A30071CBC7 /* Simulation */,
 				9F5DDFB32128F3A30071CBC7 /* Products */,
+				9F5DDFBC2128F3B30071CBC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +105,44 @@
 		9F5DDFB42128F3A30071CBC7 /* Simulation */ = {
 			isa = PBXGroup;
 			children = (
+				9F052B18212BAD4E00E53DE6 /* common */,
+				9F5DDFCE212B11A20071CBC7 /* shaders */,
 				9F5DDFB52128F3A30071CBC7 /* main.cpp */,
+				9F5DDFC7212B0EC30071CBC7 /* ShaderProgram.cpp */,
+				9F5DDFC8212B0EC30071CBC7 /* ShaderProgram.hpp */,
+				9F5DDFCA212B0F6D0071CBC7 /* ColorShader.hpp */,
+				9F5DDFCB212B0F6D0071CBC7 /* ColorShader.cpp */,
+				9F052B1D212BBB4200E53DE6 /* sphere.cpp */,
+				9F052B1E212BBB4200E53DE6 /* sphere.hpp */,
+				9F052B20212C5C7E00E53DE6 /* TimeStepper.cpp */,
+				9F052B21212C5C7E00E53DE6 /* TimeStepper.hpp */,
+				9F052B23212C606600E53DE6 /* plane.cpp */,
+				9F052B24212C606600E53DE6 /* plane.hpp */,
+				9F052B26212C632900E53DE6 /* theme.cpp */,
+				9F052B27212C632900E53DE6 /* theme.hpp */,
 			);
 			path = Simulation;
+			sourceTree = "<group>";
+		};
+		9F5DDFBC2128F3B30071CBC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5DDFC42128F5590071CBC7 /* libGLEW.2.1.0.dylib */,
+				9F5DDFC32128F5590071CBC7 /* libglfw.3.2.dylib */,
+				9F5DDFBD2128F3B30071CBC7 /* GLKit.framework */,
+				9F5DDFBF2128F3B30071CBC7 /* GLUT.framework */,
+				9F5DDFBE2128F3B30071CBC7 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F5DDFCE212B11A20071CBC7 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				9F5DDFCF212B11CC0071CBC7 /* color_render.vert */,
+				9F5DDFD0212B11DB0071CBC7 /* color_render.frag */,
+			);
+			path = shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F5DDFB62128F3A30071CBC7 /* main.cpp in Sources */,
+				9F052B22212C5C7E00E53DE6 /* TimeStepper.cpp in Sources */,
+				9F5DDFC9212B0EC30071CBC7 /* ShaderProgram.cpp in Sources */,
+				9F052B25212C606600E53DE6 /* plane.cpp in Sources */,
+				9F052B1B212BAD7E00E53DE6 /* shader.cpp in Sources */,
+				9F052B1C212BAE2F00E53DE6 /* main.cpp in Sources */,
+				9F052B28212C632900E53DE6 /* theme.cpp in Sources */,
+				9F5DDFCD212B10F20071CBC7 /* ColorShader.cpp in Sources */,
+				9F052B1F212BBB4200E53DE6 /* sphere.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +329,16 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NJR9RQ6TA;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +348,16 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7NJR9RQ6TA;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw/3.2.1/include,
+					/usr/local/Cellar/glew/2.1.0/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
